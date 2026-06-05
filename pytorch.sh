@@ -8,7 +8,7 @@ base_gb = 40
 min_extra_gb = 0
 max_extra_gb = 3
 
-print("开始：基础 24GB + 随机 0~3GB 波动，Ctrl+C 停止")
+print("开始：基础 40GB + 随机 0~3GB 波动，Ctrl+C 停止")
 
 base = torch.empty(
     base_gb * 1024 * 1024 * 1024 // 4,
@@ -17,7 +17,7 @@ base = torch.empty(
 )
 base.fill_(1.0)
 
-print("✅ 基础占用 24GB 成功")
+print("✅ 基础占用 40GB 成功")
 
 while True:
     extra_gb = random.uniform(min_extra_gb, max_extra_gb)
