@@ -5,7 +5,7 @@ time
 import random
 import gc
 
-base_gb = 80
+base_gb = 24
 min_extra_gb = 0
 max_extra_gb = 3
 
@@ -20,7 +20,7 @@ base = torch.empty(
 )
 base.fill_(1.0)
 
-print("✅ 基础占用 80GB 成功"
+print("✅ 基础占用 24GB 成功"
 )
 
 while
