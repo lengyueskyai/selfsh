@@ -4,7 +4,7 @@ import time
 import random
 import gc
 
-base_gb = 24
+base_gb = 40
 min_extra_gb = 0
 max_extra_gb = 3
 
